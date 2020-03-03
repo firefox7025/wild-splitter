@@ -1,3 +1,9 @@
+extern crate glob;
+mod file_finder;
+
 fn main() {
-    println!("Hello, world!");
+    let x = file_finder::find_files("/Users/alexander.montgomery/Desktop");
+    println!("{:?}", x);
 }
+
+
