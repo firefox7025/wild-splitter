@@ -2,5 +2,8 @@
 name = "wild-splitter"
 version = "0.1.0"
 authors = ["alexander.montgomery <alexander.montgomery@coxautoinc.com>"]
+cargo-features = ["rename-dependency"]
 
 [dependencies]
+bardecoder = "0.1"
+
