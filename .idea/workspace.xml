@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="073b9fe6-26da-4bbd-a71b-b329d5885dfc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YbeeVOfGueyI1qFXkfKN4FTo36" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Gradle.wild-splitter [clean build]">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="wild-splitter.main" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\alexa\Desktop\input C:\Users\alexa\Desktop\output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wild-splitter [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Gradle.wild-splitter [clean build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="073b9fe6-26da-4bbd-a71b-b329d5885dfc" name="Default Changelist" comment="" />
+      <created>1583215817007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583215817007</updated>
+      <workItem from="1583215818966" duration="3786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4713" y="359" key="#Project_Structure" timestamp="1583218646551">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="4713" y="359" key="#Project_Structure/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583218646551" />
+    <state x="4576" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583219378876">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="4576" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583219378876" />
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom" timestamp="1583219608035">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583219608035" />
+    <state width="2517" height="380" key="GridCell.Tab.0.center" timestamp="1583219608035">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="380" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583219608034" />
+    <state width="2517" height="380" key="GridCell.Tab.0.left" timestamp="1583219608034">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="380" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583219608034" />
+    <state width="2517" height="380" key="GridCell.Tab.0.right" timestamp="1583219608035">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="380" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583219608035" />
+    <state width="2517" height="470" key="GridCell.Tab.1.bottom" timestamp="1583218323084">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="470" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583218323084" />
+    <state width="2517" height="470" key="GridCell.Tab.1.center" timestamp="1583218323083">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="470" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583218323083" />
+    <state width="2517" height="470" key="GridCell.Tab.1.left" timestamp="1583218323083">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="470" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583218323083" />
+    <state width="2517" height="470" key="GridCell.Tab.1.right" timestamp="1583218323084">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="470" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1583218323084" />
+  </component>
+</project>
