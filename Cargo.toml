@@ -1,0 +1,6 @@
+[package]
+name = "wild-splitter"
+version = "0.1.0"
+authors = ["alexander.montgomery <alexander.montgomery@coxautoinc.com>"]
+
+[dependencies]
