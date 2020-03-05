@@ -1,9 +1,14 @@
 extern crate glob;
 extern crate clap;
 extern crate dirs;
+extern crate lopdf;
+extern crate pyo3;
 
 use clap::{Arg, App};
 use std::fs;
+use pyo3::prelude::*;
+use pyo3::types::IntoPyDict;
+use pyo3::Python;
 
 mod file_finder;
 mod pdf_splitter;
@@ -29,6 +34,26 @@ fn main() {
     let _input_dir = _matches.value_of("INPUT").unwrap_or(&alternative_home);
     let _out_dir = _matches.value_of("OUTPUT").unwrap_or(&alternative_stored);
     let _located_files = file_finder::find_files(_input_dir);
+
+    for x in _located_files {
+        println!("{:?}", &x);
+        pdf_splitter::split_on_qr(x, _out_dir.parse().unwrap());
+    }
+
+    let gil = Python::acquire_gil();
+    let py = gil.python();
+
+    main_(py);
+}
+
+fn main_(py: Python) -> PyResult<()> {
+    let sys = py.import("sys")?;
+    let version: String = sys.get("version")?.extract()?;
+    let locals = [("os", py.import("os")?)].into_py_dict(py);
+    let code = "os.getenv('USER') or os.getenv('USERNAME') or 'Unknown'";
+    let user: String = py.eval(code, None, Some(&locals))?.extract()?;
+    println!("Hello {}, I'm Python {}", user, version);
+    Ok(())
 }
 
 fn get_home() -> String {
