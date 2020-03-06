@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: builder
-    image: openjdk:15-jdk-nanoserver
+    image: adoptopenjdk/openjdk11
     command:
     - cat
     tty: true
