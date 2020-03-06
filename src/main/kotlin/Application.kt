@@ -20,5 +20,9 @@ object Application {
                     pdfRunner.pdf = pdf
                     commonPool.submit(pdfRunner)
                 }
+
+        while(commonPool.runningThreadCount != 0) {
+            Thread.sleep(10000);
+        }
     }
 }
