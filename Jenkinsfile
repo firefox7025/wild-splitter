@@ -6,7 +6,7 @@ metadata:
     some-label: builder
 spec:
   containers:
-  - name: builder
+  - name: gradle
     image: adoptopenjdk/openjdk11
     command:
     - cat
@@ -17,7 +17,7 @@ spec:
   node(POD_LABEL) {
     stage('Build and test') {
     checkout scm
-      container('rust') {
+      container('gradle') {
         sh './gradlew clean build'
       }
     }
