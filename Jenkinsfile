@@ -18,6 +18,7 @@ spec:
     stage('Build and test') {
     checkout scm
       container('gradle') {
+        sh 'chmod +X gradlew'
         sh './gradlew clean build'
       }
     }
