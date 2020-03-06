@@ -6,6 +6,7 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource
 import com.google.zxing.common.HybridBinarizer
 import org.apache.pdfbox.pdmodel.PDDocument
 import org.apache.pdfbox.rendering.PDFRenderer
+
 import java.io.IOException
 import java.nio.file.Files
 import java.nio.file.Path
@@ -13,9 +14,15 @@ import java.nio.file.Paths
 import java.util.*
 import javax.imageio.ImageIO
 
-class PdfService internal constructor(outdir: String?) {
-    private val outputDir: Path
-    fun parsePdf(pdf: Path) {
+class PdfRunner : Runnable {
+    var outputDir: Path = Paths.get(".")
+        get() = field
+        set(value) { field = value }
+    var pdf: Path = Paths.get(".")
+        get() = field
+        set(value) { field = value }
+
+    override fun run() {
         try {
             PDDocument.load(pdf.toFile()).use { doc ->
                 val pdfRenderer = PDFRenderer(doc)
@@ -47,13 +54,5 @@ class PdfService internal constructor(outdir: String?) {
         val newImage = Paths.get(outputDir.toString(), UUID.randomUUID().toString() + ".jpg")
         Files.createFile(newImage)
         return newImage
-    }
-
-    init {
-        val outputDir = Paths.get(outdir)
-        if (Files.notExists(outputDir)) {
-            Files.createDirectories(outputDir)
-        }
-        this.outputDir = outputDir
     }
 }
